@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                     float faction = mAllOffsetY % viewHeight / viewHeight;
 
                     faction = 1 - 0.5f * faction;
-                    l(mAllOffsetY, dy, view.getMeasuredHeight(), faction, layoutManager.findFirstVisibleItemPosition());
                     view.setScaleY(faction);
                     view.setScaleX(faction);
                 }
