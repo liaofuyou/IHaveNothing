@@ -17,7 +17,8 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:title="I HAVE NOTHING" />
+            app:title="I HAVE NOTHING"
+            app:titleTextColor="#000000" />
 
     </android.support.design.widget.AppBarLayout>
 
